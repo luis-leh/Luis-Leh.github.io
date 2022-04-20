@@ -1,8 +1,13 @@
 body {
-  background-color: #3639c3;
-  font-family:sans-serif;
+  background-color: midnightblue;
+  color:darkgoldenrod;
+  font-family: serif;
 }
 
 html {
   margin: 60px;
+}
+
+#Davao {
+  
 }
