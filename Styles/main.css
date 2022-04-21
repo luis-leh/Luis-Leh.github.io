@@ -1,7 +1,7 @@
 html {
-  background-image: url(/Users/luisleh/Devacademy/Workspace/Images/DavaoByLesterCasio.jpg);
-  max-width: 100%;
-  position: auto;
+  background-color:teal;
+  font-family: cursive;
+  color:goldenrod;
 }
 
 header {
