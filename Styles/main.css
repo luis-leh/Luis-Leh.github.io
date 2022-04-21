@@ -25,33 +25,27 @@ ul {
 }
 
 #coconuts {
-  max-width: 100%;
-  transform: scale(0.4);
-  position: relative;
-  bottom: 300px;
-  right: 400px;
+  max-width: 20%;
+  max-height: 1%;
+  position: absolute;
 }
 
 #davao {
-  max-width: 100%;
-  transform: scale(0.4);
-  position: relative;
-  bottom: 300px;
-  right: 400px;
+  max-width: 1400%;
+  max-height: 1400%;
+  position: absolute;
+  right: 0px;
 }
 
-#p.azalea {
-  max-width: 100%;
-  transform: scale(0.4);
-  position: relative;
-  bottom: 300px;
-  right: 400px;
+#pazalea {
+  max-width: 1400%;
+  max-height: 1400%;
+  position: absolute;
+  left: 636px;
 }
 
-#s.dinosaur {
-  max-width: 100%;
-  transform: scale(0.4);
-  position: relative;
-  bottom: 300px;
-  right: 400px;
+#sdinosaur {
+  max-width: 1400%;
+  max-height: 1400%;
+  position: absolute;
 }
