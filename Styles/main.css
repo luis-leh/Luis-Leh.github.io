@@ -24,22 +24,9 @@ ul {
   text-decoration: underline;
 }
 
-#davao {
-  max-width: 1400%;
-  max-height: 1400%;
-  position: absolute;
-  right: 0px;
-}
-
-#pazalea {
-  max-width: 1400%;
-  max-height: 1400%;
-  position: absolute;
-  left: 636px;
-}
-
-#sdinosaur {
-  max-width: 1400%;
-  max-height: 1400%;
-  position: absolute;
+img {
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+  position: relative;
 }
