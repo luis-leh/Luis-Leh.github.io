@@ -17,3 +17,7 @@ body {
   font-size: 18px;
   color: #F5F5F5;
 }
+
+ul {
+  text-decoration: underline;
+}
