@@ -1,17 +1,13 @@
 html {
-  margin (0px, 0px, 0px, 0px);
+  background-image: url(/Users/luisleh/Devacademy/Workspace/Images/DavaoByLesterCasio.jpg);
+  max-width: 100%;
+  position: auto;
+}
+
+header {
+  text-align: center;
 }
 
 body {
-  background-color:slategrey;
+  text-align: justify;
 }
-
-#davao-background {
-  max-width: 100%;
-  height: auto;
-  position: sticky;
-  opacity: 0.3;
-  border-radius: 5%;
-
-}
-
