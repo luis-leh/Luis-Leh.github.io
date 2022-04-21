@@ -1,16 +1,17 @@
-body {
-  background-color: midnightblue;
-  color:darkgoldenrod;
-  font-family: serif;
+html {
+  margin (0px, 0px, 0px, 0px);
 }
 
-html {
-  margin: 60px;
+body {
+  background-color:slategrey;
 }
 
 #davao-background {
   max-width: 100%;
   height: auto;
+  position: sticky;
+  opacity: 0.3;
+  border-radius: 5%;
 
 }
 
