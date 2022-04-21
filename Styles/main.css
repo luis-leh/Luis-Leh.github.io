@@ -31,3 +31,27 @@ ul {
   bottom: 300px;
   right: 400px;
 }
+
+#davao {
+  max-width: 100%;
+  transform: scale(0.4);
+  position: relative;
+  bottom: 300px;
+  right: 400px;
+}
+
+#p.azalea {
+  max-width: 100%;
+  transform: scale(0.4);
+  position: relative;
+  bottom: 300px;
+  right: 400px;
+}
+
+#s.dinosaur {
+  max-width: 100%;
+  transform: scale(0.4);
+  position: relative;
+  bottom: 300px;
+  right: 400px;
+}
