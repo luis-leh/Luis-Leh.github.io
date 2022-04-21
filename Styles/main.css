@@ -7,13 +7,12 @@ header {
   text-align: center;
   background-color:whitesmoke;
   color:teal;
-  font-size: 20px;
+  font-size: 25px;
   font-family: cursive;
 }
 
 body {
   text-align: justify;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 18px;
   color: #F5F5F5;
 }
