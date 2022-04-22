@@ -34,3 +34,13 @@ img {
 .background {
   background-color: whitesmoke;
 }
+
+#kobe {
+  display: block;
+  width: 1500px;
+}
+
+.screenshot {
+  display: inline-block;
+  width: 400px;
+}
