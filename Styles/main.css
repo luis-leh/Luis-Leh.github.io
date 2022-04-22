@@ -30,3 +30,7 @@ img {
   object-fit: contain;
   position: relative;
 }
+
+.center {
+  text-align: center;
+}
