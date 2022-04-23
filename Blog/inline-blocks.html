@@ -16,11 +16,12 @@
   <body>
 
     <div style="position: relative; top: 60px;">
-      <h1>Inline</h1>
+
+      <h1>Block</h1>
         <ul>
-          <li>Inline elements are displayed on the same line</li>
-          <li>Setting height and width properties for inline elements will not have an effect</li>
-          <li>Inline elements will only take as much width as its content</li>
+          <li>Block elements are displayed on a new line</li>
+          <li>Block elements take up the full available width by default</li>
+          <li>Setting height and width properties are possible</li>
         </ul>
     </div>
 
@@ -33,24 +34,36 @@
     </div>
 
     <div style="position: relative; top: 140px;">
-      <h1>Block</h1>
+      <h1>Inline</h1>
         <ul>
-          <li>Block elements are displayed on a new line</li>
-          <li>Block elements take up the full available width by default</li>
-          <li>Setting height and width properties are possible</li>
+          <li>Inline elements are displayed on the same line</li>
+          <li>Setting height and width properties for inline elements will not have an effect</li>
+          <li>Inline elements will only take as much width as its content</li>
         </ul>
     <div>
 
     <div style="position: relative; top: 40px;">
       <h1>Block, Inline-Block & Inline explained</h1>
-      <img id="kobe" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Inline Block HTML.png" alt="Screenshot of browser">
-      <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Block.png" alt="block">
-      <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/CSS Block.png" alt="css-block">
-      <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Inline-Block.png" alt="inline-block">
-      <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/CSS Inline-Block.png" alt="css-inline-block">
-      <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Inline.png" alt="inline">
-      <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/CSS Inline.png" alt="css-inline">
-      <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Inline Images.png" alt="inline-images">
+        <div>
+          <ol>
+            <li>The Block Property</li>
+            <p>The image below shows how HTML, CSS and the Browser works together. The HTML element 'span' is normally an 'inline' element but here it was given the display property of 'block' in CSS.</p>
+            <p>Because of this, the browser will display the elements as a 'block', which means that each of them take a line of their own. 'Block' elements can also have their width and height set.</p>
+            <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Block Property.png" alt="Block Property HTML CSS & Browser Screenshot"><br>
+
+            <li>The Inline-BLock Property</li>
+            <p>This next one shows how the 'inline-block' display property works. It is similart to the 'block' property in a way that they still are contained inside a 'box' that you can set the height and width of.</p>
+            <p>However, you can observe that SPAN 4, SPAN 5 and SPAN 6 are sitting beside each other on the same line as long as the width permits. This is what makes it different from the 'block' property.</p>
+            <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Inline-Block Property.png" alt="Inline-Block Property HTML CSS & Browser Screenshot"><br>
+
+            <li>The Inline Property</li>
+            <p>This last image shows the 'inline' property at work for SPAN 7, SPAN 8, and SPAN 9 elements as well as the images of Kobe Bryant below.</p>
+            <p>Notice how SPAN 7, 8, and 9 are sitting very close to each other and how they only occupy as much room as they need even though they have the same height and width with SPAN 4, 5, and 6.</p>
+            <p>This is because 'inline' elements only take up as much room as what the size of the text or image is. The height and width of 'inline' elements can't be set as well which makes our entry on CSS useless.</p>
+            <p></p>
+            <img class="screenshot" src="/Users/luisleh/Devacademy/Workspace/Luis-Leh.github.io/Images/Inline Property.png" alt="Inline Property HTML CSS & Browser Screenshot"><br>
+          </ol>
+        </div>
     </div>
 
   </body>
