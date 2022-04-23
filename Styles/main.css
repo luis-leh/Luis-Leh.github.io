@@ -37,10 +37,10 @@ img {
 
 #kobe {
   display: block;
-  width: 1500px;
+  width: 400px;
 }
 
 .screenshot {
-  display: inline-block;
-  width: 400px;
+  display: block;
+  width: 1000px;
 }
