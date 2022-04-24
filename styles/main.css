@@ -5,6 +5,10 @@ html {
   color:goldenrod;
 }
 
+.nav {
+  text-align: left;
+}
+
 header {
   text-align: center;
   background-color:whitesmoke;
@@ -45,8 +49,4 @@ img {
 .screenshot {
   display: block;
   width: 1000px;
-}
-
-.nav {
-  text-align: left;
 }
