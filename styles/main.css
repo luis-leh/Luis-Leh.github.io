@@ -44,3 +44,7 @@ img {
   display: block;
   width: 1000px;
 }
+
+.nav {
+  text-align: left;
+}
