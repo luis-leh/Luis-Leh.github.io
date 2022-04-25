@@ -50,3 +50,11 @@ img {
 .nav {
   text-align: left;
 }
+
+.strong {
+  text-decoration: solid;
+}
+
+.underline {
+  text-decoration: underline;
+}
