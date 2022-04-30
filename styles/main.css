@@ -58,3 +58,7 @@ img {
 .underline {
   text-decoration: underline;
 }
+
+.main-content {
+  width: 60%;
+}
