@@ -1,6 +1,52 @@
+let rickRollArray = []
+let validKeys = [
+  '83',
+  '68',
+  '70',
+  '71',
+  '72',
+  '74',
+  '75',
+  '76',
+  '69',
+  '82',
+  '89',
+  '85',
+  '73',
+]
+const rickRollNotes = ['71', '71', '71', '71', '74', '74', '72']
+// g, g, g, g, j, j, h
+
+//rick roll stuff
+function playRickRoll() {
+  rickRollArray = []
+  document.getElementById('rick').src =
+    'https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif'
+  let audio
+  audio = new Audio(`sounds/rick-roll.mp3`)
+  audio.play()
+}
+function checkKey(key) {
+  if (rickRollNotes.includes(String(key))) {
+    rickRollArray.push(String(key))
+  }
+}
+
+const shouldPlayRickRoll = () => {
+  const last7Notes = rickRollArray.slice(-7)
+  return rickRollNotes.every((key, index) => last7Notes[index] === key)
+}
+
+function attemptToRickRoll() {
+  if (shouldPlayRickRoll()) {
+    console.log('RICK ROLLLLL')
+    playRickRoll()
+  }
+}
+
+//rest of code
 function playAudio(note) {
   let audio
-  console.log(note)
   audio = new Audio(`sounds/${note}.wav`)
   audio.play()
 }
@@ -8,6 +54,8 @@ function playAudio(note) {
 function playNote(e) {
   let key = e.keyCode
   console.log(key)
+  checkKey(key)
+  attemptToRickRoll()
   if (key == '83') {
     // keyboard S / piano C x
     return playAudio('c')
@@ -119,7 +167,6 @@ function playClickedNote(e) {
   }
 }
 function addColor(e) {
-  let clickedKey = e.target.id
   let key = e.keyCode.toString()
   document.getElementById(`${key}`).classList.add('pressed-key')
 }
@@ -143,11 +190,8 @@ document.addEventListener('keydown', playNote)
 document.addEventListener('keydown', addColor)
 document.addEventListener('keyup', removeColor)
 
-const testClick = (e) => {
-  console.log('hello' + e)
-}
 const element = document.querySelector('.keys')
 
-element.addEventListener('mousedown', playClickedNote)
-element.addEventListener('mousedown', addClickColor)
-element.addEventListener('mouseup', removeClickColor)
+// element.addEventListener('mousedown', playClickedNote)
+// element.addEventListener('mousedown', addClickColor)
+// element.addEventListener('mouseup', removeClickColor)
